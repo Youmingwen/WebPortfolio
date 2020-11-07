@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar-custom {
+    background-color: black;
+}
+
+.navbar .navbar-toggler .icon-bar {
+    background-color: white !important;
+}
+
+/* Attention Masih Error Untuk Warna Toggle dan Expand Toggle */
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: white;
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-image: url(../img/Night\ Sky\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    text-align: center;
+
+}
+
+.jumbotron h1,
+p {
+    color: white;
+}
+
+.jumbotron .container {
+    margin-top: 200px;
+}
