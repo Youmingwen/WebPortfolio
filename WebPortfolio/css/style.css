@@ -8,8 +8,8 @@
     background-color: black;
 }
 
-.navbar .navbar-toggler .icon-bar {
-    background-color: white !important;
+.navbar .navbar-toggler span {
+    color: white !important;
 }
 
 /* Attention Masih Error Untuk Warna Toggle dan Expand Toggle */
