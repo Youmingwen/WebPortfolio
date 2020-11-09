@@ -40,7 +40,25 @@ p {
 }
 
 /* About */
-img {
+.about {
+    background-color: black;
+    margin-top: -32px;
+}
+
+.about .profile {
+    text-align: right;
+}
+
+.about .profile img {
     width: 350px;
     height: 500px;
+    border-radius: 10px;
+    margin: 20px;
+
+}
+
+.about .abt {
+    margin: 20px;
+    color: white;
+    text-align: justify;
 }
