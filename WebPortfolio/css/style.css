@@ -38,3 +38,9 @@ p {
 .jumbotron .container {
     margin-top: 200px;
 }
+
+/* About */
+img {
+    width: 350px;
+    height: 500px;
+}
