@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <title>Wen - Portfolio</title>
 </head>
 
@@ -14,31 +15,31 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-custom">
         <div class="container">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#">Youmingwen</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <!--<span class="navbar-toggler-icon icon-bar"></span>-->
                 <span><i class="fa fa-reorder"></i></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto">
-                    <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-link" href="#">About</a>
-                    <a class="nav-link" href="#">Skills</a>
-                    <a class="nav-link" href="#">Resume</a>
-                    <a class="nav-link" href="#">Contact</a>
+                    <li><a class="nav-link active" href="#home">Home <span class="sr-only">(current)</span></a></li>
+                    <li><a class="nav-link" href="#about">About</a></li>
+                    <li><a class="nav-link" href="#skill">Skills</a></li>
+                    <li><a class="nav-link" href="#">Resume</a></li>
+                    <li><a class="nav-link" href="#contact">Contact</a></li>
                 </div>
             </div>
         </div>
     </nav>
 
-    <div class="jumbotron jumbotron-fluid text-center img-responsive">
+    <div class="jumbotron jumbotron-fluid text-center img-responsive" id="home">
         <div class="container">
             <h1 class="display-4">I Am Owen Djoenaedi</h1>
             <p class="lead">College Student Major Information Technology (IT).</p>
         </div>
     </div>
 
-    <div class="about">
+    <div class="about" id="about">
         <div class="container">
             <!-- Pakai Flex Untuk Image dan Text -->
             <div class="row">
@@ -58,35 +59,61 @@
         </div>
     </div>
     
-    <div class="skill">
+    <div class="skill" id="skill">
         <div class="container">
-            <h1 class="text-center ch1">Skills</h1>
+            <h1 class="text-center">Skills</h1>
             <div class="row">
-                <div class="col s1">
+                <div class="col">
                     <i class='fab fa-html5' style='font-size:48px;color:red' aria-hidden="true"></i>
                     <h3>HTML</h3>
                 </div>
-                <div class="col s1">
+                <div class="col">
                     <i class='fab fa-css3' style='font-size:48px;color:blue' aria-hidden="true"></i>
                     <h3>CSS</h3>
                 </div>
-                <div class="col s1">
+                <div class="col">
                     <i class='fab fa-java fa-3x' style='font-size:48px;color:red' aria-hidden="true"></i>
                     <h3>Java</h3>
                 </div>
             </div>
             <div class="row">
-                <div class="col s1">
+                <div class="col">
                     <i class='fab fa-python' style='font-size:48px;color:blue' aria-hidden="true"></i>
                     <h3>Python</h3>
                 </div>
-                <div class="col s1">
+                <div class="col">
                     <i class='fas fa-file-excel' style='font-size:48px;color:red' aria-hidden="true"></i>
                     <h3>Excel</h3>
                 </div>
-                <div class="col s1">
+                <div class="col">
                     <i class='fas fa-book' style='font-size:48px;color:blue' aria-hidden="true"></i>
                     <h3>Bootstrap</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact" id="contact">
+        <div class="container">
+            <h1 class="text-center">Contact Me</h1>
+            <div class="row">
+                <div class="col">
+                    <i class='fab fa-whatsapp' style='font-size:48px;color:white'></i>
+                    <h3>0819-0875-5175</h3>
+                </div>
+                <div class="col">
+                    <i class='fab fa-line' style='font-size:48px;color:white'></i>
+                    <h3>ymw_16</h3>
+                </div>
+                <div class="col">
+                    <i class='fab fa-linkedin' style='font-size:48px;color:white'></i>
+                    <h3>Owen Djoenaedi</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <i class="material-icons" style="font-size:48px;color:white">mail_outline</i>
+                    <h3>owendjoe@gmail.com</h3>
                 </div>
             </div>
         </div>

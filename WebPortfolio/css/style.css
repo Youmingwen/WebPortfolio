@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Navbar */
 .navbar-custom {
     background-color: black;
@@ -21,8 +25,16 @@
 
 /* Jumbotron */
 .jumbotron {
-    background-image: url(../img/Night\ Sky\ 1.jpg);
+    background-image: url(../img/Blue\ Sky\ 1.jpg);
     background-size: cover;
+    height: 700px;
+    padding: 0% !important;
+}
+
+.jumbotron .container {
+    height: inherit;
+    padding-top: 250px;
+    padding-bottom: 350px;
 }
 
 .jumbotron h1,
@@ -60,22 +72,42 @@ p {
 
 .skill {
     /*background-color: #3c3c3c;*/
-
     background-color: #DFDFE5;
 }
 
-.ch1 {
+.skill h1 {
     padding: 20px;
     /*color: white;*/
 }
 
-.row .s1 {
+.skill .row .col {
     padding: 20px;
     text-align: center;
     justify-content: center;
 }
 
-.row .col h3 {
+.skill .row .col h3 {
     padding: 10px;
     /*color: white;*/
+}
+
+/* Contact */
+.contact {
+    background-color: black;
+}
+
+.contact h1 {
+    padding: 20px;
+    color: white;
+}
+
+.contact .row .col {
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.contact .row .col h3 {
+    padding: 20px;
+    color: white;
 }
